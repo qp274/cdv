@@ -1,0 +1,16 @@
+.bar {
+  border: 5px solid red;
+  background-color: lightblue;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+}
+
+div {
+  border: 5px solid red;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+}
