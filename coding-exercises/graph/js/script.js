@@ -1,85 +1,122 @@
 let data = [
     {
         "timestamp": "2021-01-30T09:57:26.775Z",
-        "zodiacSigns": 3,
-        "mbtiMyersbriggsTypeIndicator": 5,
-        "fengShuiyiJing": 3,
-        "chineseZodiacSigns": 3,
-        "karmaInBuddhismActionDrivenByIntentionLeadsToFutureConsequences": 3,
-        "otherIDoTrustToSomeDegreeAPredictionSystemNotInTheList": 3
+        "Zodiac Signs": 3,
+        "mbti": 5,
+        "feng shui/yi jing": 3,
+        "Chinese zodiacs": 3,
+        "karma In Buddhism": 3,
+        "other": 3
     },
     {
         "timestamp": "2021-01-30T10:01:02.743Z",
-        "zodiacSigns": 2,
-        "mbtiMyersbriggsTypeIndicator": 1,
-        "fengShuiyiJing": 1,
-        "chineseZodiacSigns": 2,
-        "karmaInBuddhismActionDrivenByIntentionLeadsToFutureConsequences": 3
+        "Zodiac Signs": 2,
+        "mbti": 1,
+        "feng shui/yi jing": 1,
+        "Chinese zodiacs": 2,
+        "karma In Buddhism": 3,
+        "other": 1
     },
     {
         "timestamp": "2021-01-30T10:01:45.593Z",
-        "zodiacSigns": 2,
-        "mbtiMyersbriggsTypeIndicator": 2,
-        "fengShuiyiJing": 3,
-        "chineseZodiacSigns": 2,
-        "karmaInBuddhismActionDrivenByIntentionLeadsToFutureConsequences": 3,
-        "otherIDoTrustToSomeDegreeAPredictionSystemNotInTheList": 2
+        "Zodiac Signs": 2,
+        "mbti": 2,
+        "feng shui/yi jing": 3,
+        "Chinese zodiacs": 2,
+        "karma In Buddhism": 3,
+        "other": 2
     },
     {
         "timestamp": "2021-01-30T10:02:08.776Z",
-        "zodiacSigns": 2,
-        "mbtiMyersbriggsTypeIndicator": 2,
-        "fengShuiyiJing": 2,
-        "chineseZodiacSigns": 2,
-        "karmaInBuddhismActionDrivenByIntentionLeadsToFutureConsequences": 3,
-        "otherIDoTrustToSomeDegreeAPredictionSystemNotInTheList": 3
+        "Zodiac Signs": 2,
+        "mbti": 2,
+        "feng shui/yi jing": 2,
+        "Chinese zodiacs": 2,
+        "karma In Buddhism": 3,
+        "other": 3
     },
     {
         "timestamp": "2021-01-30T10:13:10.753Z",
-        "zodiacSigns": 5,
-        "mbtiMyersbriggsTypeIndicator": 2,
-        "fengShuiyiJing": 1,
-        "chineseZodiacSigns": 1,
-        "karmaInBuddhismActionDrivenByIntentionLeadsToFutureConsequences": 1,
-        "otherIDoTrustToSomeDegreeAPredictionSystemNotInTheList": 1
+        "Zodiac Signs": 5,
+        "mbti": 2,
+        "feng shui/yi jing": 1,
+        "Chinese zodiacs": 1,
+        "karma In Buddhism": 1,
+        "other": 1
     },
     {
         "timestamp": "2021-01-30T10:46:21.854Z",
-        "zodiacSigns": 1,
-        "mbtiMyersbriggsTypeIndicator": 1,
-        "fengShuiyiJing": 4,
-        "chineseZodiacSigns": 3,
-        "karmaInBuddhismActionDrivenByIntentionLeadsToFutureConsequences": 2,
-        "otherIDoTrustToSomeDegreeAPredictionSystemNotInTheList": 5
+        "Zodiac Signs": 1,
+        "mbti": 1,
+        "feng shui/yi jing": 4,
+        "Chinese zodiacs": 3,
+        "karma In Buddhism": 2,
+        "other": 5
     },
     {
         "timestamp": "2021-01-30T12:23:02.789Z",
-        "zodiacSigns": 2,
-        "mbtiMyersbriggsTypeIndicator": 3,
-        "fengShuiyiJing": 3,
-        "chineseZodiacSigns": 1,
-        "karmaInBuddhismActionDrivenByIntentionLeadsToFutureConsequences": 2,
-        "otherIDoTrustToSomeDegreeAPredictionSystemNotInTheList": 2
+        "Zodiac Signs": 2,
+        "mbti": 3,
+        "feng shui/yi jing": 3,
+        "Chinese zodiacs": 1,
+        "karma In Buddhism": 2,
+        "other": 2
     },
     {
         "timestamp": "2021-01-30T12:28:01.104Z",
-        "zodiacSigns": 1,
-        "mbtiMyersbriggsTypeIndicator": 1,
-        "fengShuiyiJing": 5,
-        "chineseZodiacSigns": 1,
-        "karmaInBuddhismActionDrivenByIntentionLeadsToFutureConsequences": 1,
-        "otherIDoTrustToSomeDegreeAPredictionSystemNotInTheList": 1
+        "Zodiac Signs": 1,
+        "mbti": 1,
+        "feng shui/yi jing": 5,
+        "Chinese zodiacs": 1,
+        "karma In Buddhism": 1,
+        "other": 1
     },
     {
         "timestamp": "2021-01-30T12:28:36.298Z",
-        "zodiacSigns": 1,
-        "mbtiMyersbriggsTypeIndicator": 1,
-        "fengShuiyiJing": 5,
-        "chineseZodiacSigns": 1,
-        "karmaInBuddhismActionDrivenByIntentionLeadsToFutureConsequences": 5,
-        "otherIDoTrustToSomeDegreeAPredictionSystemNotInTheList": 2
+        "Zodiac Signs": 1,
+        "mbti": 1,
+        "feng shui/yi jing": 5,
+        "Chinese zodiacs": 1,
+        "karma In Buddhism": 5,
+        "other": 2
+    },
+    {
+        "timestamp": "2021-01-30T13:31:39.660Z",
+        "Zodiac Signs": 4,
+        "mbti": 3,
+        "feng shui/yi jing": 3,
+        "Chinese zodiacs": 3,
+        "karma In Buddhism": 3,
+        "other": 3
+    },
+    {
+        "timestamp": "2021-01-30T16:59:49.312Z",
+        "Zodiac Signs": 3,
+        "mbti": 3,
+        "feng shui/yi jing": 3,
+        "Chinese zodiacs": 3,
+        "karma In Buddhism": 3,
+        "other": 3
+    },
+    {
+        "timestamp": "2021-01-30T18:47:17.182Z",
+        "Zodiac Signs": 1,
+        "mbti": 1,
+        "feng shui/yi jing": 1,
+        "Chinese zodiacs": 1,
+        "karma In Buddhism": 5,
+        "other": 1
+    },
+    {
+        "timestamp": "2021-01-31T12:07:31.407Z",
+        "Zodiac Signs": 1,
+        "mbti": 2,
+        "feng shui/yi jing": 3,
+        "Chinese zodiacs": 1,
+        "karma In Buddhism": 1,
+        "other": 4
     }
-]
+];
 
 // the function dates a data
 // arrayn as an argument
@@ -139,11 +176,34 @@ function averageData(data){
 let newdata = averageData(data);
 console.log(newdata);
 
-let wrapper = document.getElementById('wrapper');
+
+
+let back = document.getElementById('back');
+for (i=1; i<= newdata.length; i++) {
+  let bar = document.createElement('div');
+  bar.className = 'backbar';
+  bar.style.width = 5*80 + 'px';
+  bar.innerHTML = '5';
+  back.appendChild(bar);
+}
+
+
+// let wrapper = document.getElementById('wrapper');
+// console.log('get');
+// for (j=0; j<= newdata.length; j++) {
+//   let bar = document.createElement('div');
+//   bar.className = 'bar';
+//   bar.style.width = 200 + 'px';
+//   bar.innerHTML = newdata[j]['name'];
+//   wrapper.appendChild(bar);
+//   console.log('add')
+// }
+
+let digitwrapper = document.getElementById('digitwrapper');
 for (i=0; i<= newdata.length; i++) {
   let bar = document.createElement('div');
-  bar.className = 'bar';
-  bar.innerHTML = newdata[i]['name'];
+  bar.className = 'invisiblebar ';
+  bar.innerHTML =  newdata[i]['name']+'   '+newdata[i]['average'].toFixed(2);
   bar.style.width = newdata[i]['average']*80 + 'px';
-  wrapper.appendChild(bar);
+  digitwrapper.appendChild(bar);
 }
