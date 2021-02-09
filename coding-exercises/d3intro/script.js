@@ -1,20 +1,6 @@
 
 
-// let viz = d3.select('#viz-container')
-//   .append('svg') //selected this svg, viz=this svg
-//     .attr('class', 'viz')
-// ;
-// let svg = d3.select('#viz-container')
-//   .append('svg')
-//     .attr('class', 'svg')
-// ;
-// let rectangle = svg.append('rect')
-//     .attr('width', 40)
-//     .attr('height', 60)
-//     .attr('x',80)
-//     .attr('y',20)
-//     .attr('fill', 'blue')
-;
+
 let svg2 = d3.select('#container2')
   .append('svg') //viz2 = this svgS
     .attr('x',1000)
@@ -24,38 +10,6 @@ let svg2 = d3.select('#container2')
     .attr('width', 1200)
     .attr('height', 600)
 ;
-
-//
-// let circle = svg2.append('circle')
-//     .attr('r', 40)
-//     .attr('cx', 1)
-//     .attr('cy',1)
-//     .attr('fill', 'white')
-// ;
-
-
-// let line = svg2.append('path')
-//     .attr('stroke','red')
-//     .attr('stroke-width', 4)
-//     .attr('d', 'M25 30 L40 10 L60 10 L75 30 L60 50 L40 50 Z')
-// ;
-// let circle2 = viz.append('circle')
-//     .attr('r', 60)
-//     .attr('cx', 80)
-//     .attr('cy',80)
-//     .attr('fill','red')
-// ;
-// let ellipse = viz.append('ellipse')
-//     .attr('cx', 70)
-//     .attr('cy', 40)
-//     .attr('rx',10)
-//     .attr('ry', 20)
-//     .attr('stroke', 'red')
-//     .attr('stroke-width', 5)
-//     .attr('fill', 'none')
-//     .attr("stroke-dasharray", ("10,3"))
-// ;
-
 
 function randompos(point) {
   // console.log(point);
