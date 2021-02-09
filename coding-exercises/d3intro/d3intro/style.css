@@ -1,0 +1,9 @@
+body{
+  width, height: 100%;
+  
+  /* background-color: #32FA81; */
+}
+.svg{
+  border: none;
+  background-color: none;
+}

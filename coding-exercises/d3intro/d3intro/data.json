@@ -1,0 +1,23 @@
+[
+    {
+        "day": "day 1",
+        "trafficLight": 3,
+        "misplacement": 7,
+        "smoking": 8,
+        "trespassing": 2
+    },
+    {
+        "day": "day 2",
+        "trafficLight": 5,
+        "misplacement": 8,
+        "smoking": 5,
+        "trespassing": 4
+    },
+    {
+        "day": "day 3",
+        "trafficLight": 4,
+        "misplacement": 13,
+        "smoking": 10,
+        "trespassing": 5
+    }
+]
