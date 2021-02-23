@@ -1,0 +1,65 @@
+[
+    {
+        "day": "day 1",
+        "resist": "convention",
+        "frequency": 1,
+        "seriousness": 0,
+        "noticable": 3
+    },
+    {
+        "day": "day 1",
+        "resist": "control",
+        "frequency": 1,
+        "seriousness": 1,
+        "noticable": 3
+    },
+    {
+        "day": "day 1",
+        "resist": "convention",
+        "frequency": 1,
+        "seriousness": 0,
+        "noticable": 3
+    },
+    {
+        "day": "day 2",
+        "resist": "control",
+        "frequency": 1,
+        "seriousness": 1,
+        "noticable": 2
+    },
+    {
+        "day": "day 2",
+        "resist": "control",
+        "frequency": 1,
+        "seriousness": 0,
+        "noticable": 1
+    },
+    {
+        "day": "day 2",
+        "resist": "control",
+        "frequency": 1,
+        "seriousness": 2,
+        "noticable": 1
+    },
+    {
+        "day": "day 2",
+        "resist": "authority",
+        "frequency": 2,
+        "seriousness": 2,
+        "noticable": 0
+    },
+    {
+        "day": "day 2",
+        "resist": "control",
+        "frequency": 1,
+        "seriousness": 1,
+        "noticable": 1
+    },
+    {
+        "day": "day 2",
+        "resist": "control",
+        "frequency": 1,
+        "seriousness": 1,
+        "noticable": 0
+    }
+]
