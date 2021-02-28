@@ -32,7 +32,7 @@ function split(data, category, title) {
 
 
 function gotData(data){   // this function expects to be passed data
-  categorizeByDay(data);
+  // categorizeByDay(data);
   day1point(day1data);
   day2point(day2data)
   // seriousness(data);
@@ -61,12 +61,13 @@ function day1point(data) {
       .append('g')
       .attr('class', 'day1point')
 
-  multiplecircle(data, day1group)
+  // multiplecircle(data, day1group)
 
   day1group.append('circle')
       .attr('r',20)
       .attr('fill', 'green')
       .attr('opacity', 0.2)
+
 
   day1group.append('line')
       .attr('stroke', 'red')
@@ -84,8 +85,15 @@ function day1point(data) {
       .attr('cx',2)
 
 
-  day1group.attr('transform', randomTranslate)
 
+  day1group.attr('transform', randomTranslate)
+  day1group.attr('cx', checking)
+
+}
+
+function checking(d) {
+  console.log('checking', d.seriousness)
+  
 }
 
 function day2point(data) {
@@ -98,7 +106,7 @@ function day2point(data) {
       .attr('fill', 'green')
       .attr('opacity', 0.2)
 
-  multiplecircle(data, day2group)
+
   day2group.append('line')
       .attr('stroke', 'red')
       .attr('stroke-width',5)
@@ -115,6 +123,8 @@ function day2point(data) {
 
 
   day2group.attr('transform', randomTranslate)
+  // day1group.attr('cx', multiplecircle)
+
 
 }
 
@@ -135,19 +145,19 @@ function length(p) {
   return p['noticable']*10 + 12
 }
 
-function multiplecircle(data, group) {
-  for (i=0; i< data.length; i++) {
-    for (j=0; j<= data[i]['seriousness']; j++) {
-      let radius = 15*j
-      console.log(i,j, radius)
-      group.append('circle')
-          .attr('r', radius)
-          .attr('fill', 'green')
-          .attr('opacity', 0.1)
-          .attr('cx', j*2)
-    }
-  }
-}
+// function multiplecircle(data, group) {
+//   for (i=0; i< data.length; i++) {
+//     for (j=0; j<= data[i]['seriousness']; j++) {
+//       let radius = 15*j
+//       console.log(i,j, radius)
+//       group.append('circle')
+//           .attr('r', radius)
+//           .attr('fill', 'green')
+//           .attr('opacity', 0.1)
+//           .attr('cx', j*2)
+//     }
+//   }
+// }
 
 
 d3.json("data.json").then(gotData);
