@@ -15,7 +15,7 @@ body{
   position: absolute;
   left:100px;
   top:50px;
-  background-color:#FEF4D3;
+  /* background-color:#FEF4D3; */
 }
 
 #day2{
@@ -25,5 +25,5 @@ body{
   position: absolute;
   left:280px;
   top:50px;
-  background-color:#FEF4D3;
+  /* background-color:#FEF4D3; */
 }

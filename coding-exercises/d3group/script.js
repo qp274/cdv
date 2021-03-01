@@ -32,9 +32,9 @@ function split(data, category, title) {
 
 
 function gotData(data){   // this function expects to be passed data
-  // categorizeByDay(data);
+  categorizeByDay(data);
   day1point(day1data);
-  day2point(day2data)
+  day2point(day2data);
   // seriousness(data);
 }
 
@@ -55,79 +55,137 @@ function categorizeByDay(data) {
     console.log('day2', day2data);
 }
 
+
+
 function day1point(data) {
+
+  //background circles
+  backgroudcircle(svg1);
+
+  //define foreground groups
   let day1group = svg1.selectAll(".day1point").data(data)
     .enter()
       .append('g')
       .attr('class', 'day1point')
-
-  // multiplecircle(data, day1group)
-
-  day1group.append('circle')
-      .attr('r',20)
-      .attr('fill', 'green')
+  ;
+  // multiple circles
+  day1group.selectAll(".miniCircle").data(checking).enter()
+    .append("circle")
+      .attr("class", "miniCircle")
+      .attr("r", function(d, i){
+        return (i+1) * 12;
+      })
+      .attr('fill', typecolor)
       .attr('opacity', 0.2)
+  ;
 
+//main circle
+  day1group.append('circle')
+      .attr('r',18)
+      .attr('fill', 'green')
+      .attr('opacity', 0.4)
+  ;
 
-  day1group.append('line')
-      .attr('stroke', 'red')
-      .attr('x1',0)
-      .attr('y1',0)
-      .attr('x2',0)
-      .attr('y2',length)
-      .attr('stroke-width',5)
-      .attr('opacity',0.6)
+  // day1group.append('line')
+  //     .attr('stroke', 'red')
+  //     .attr('x1',0)
+  //     .attr('y1',0)
+  //     .attr('x2',0)
+  //     .attr('y2',length)
+  //     .attr('stroke-width',5)
+  //     .attr('opacity',0.6)
+  // ;
 
-
+//center dot
   day1group.append('circle')
       .attr('r',5)
       .attr('fill', typecolor)
       .attr('cx',2)
+  ;
+
 
 
 
   day1group.attr('transform', randomTranslate)
-  day1group.attr('cx', checking)
+
 
 }
 
-function checking(d) {
-  console.log('checking', d.seriousness)
-  
+function backgroudcircle(svgi) {
+  let row = svgi.selectAll('.row').data(d3.range(12))
+    .enter()
+      .append('g')
+      .attr('class', 'row')
+
+  row.selectAll('.rowcircle').data(d3.range(4)).enter()
+    .append('circle')
+      .attr('class','rowcircle')
+      .attr('fill', 'grey')
+      .attr('opacity', 0.2)
+      .attr('r', 16)
+      .attr('cx',function(d,i){
+        return i*34+18
+      })
+      .attr('cy',20)
+  row.attr('transform',function(d,i){
+    return "translate(" + 0 + "," + i*33 + ")"
+  })
 }
 
 function day2point(data) {
+
+  //background circles
+  backgroudcircle(svg2);
+
+  //define foreground groups
   let day2group = svg2.selectAll(".day2point").data(data)
     .enter()
       .append('g')
       .attr('class', 'day2point')
+
+      //multiple circles
+  day2group.selectAll(".miniCircle2").data(checking).enter()
+      .append("circle")
+        .attr("class", "miniCircle2")
+        .attr("r", function(d, i){
+            return i * 12 + 12;
+            })
+        .attr('fill', typecolor)
+        .attr('opacity', 0.2)
+  ;
+
+    // main circle
   day2group.append('circle')
-      .attr('r',20)
+      .attr('r',18)
       .attr('fill', 'green')
-      .attr('opacity', 0.2)
+      .attr('opacity', 0.4)
 
 
-  day2group.append('line')
-      .attr('stroke', 'red')
-      .attr('stroke-width',5)
-      .attr('opacity',0.6)
-      .attr('x1',0)
-      .attr('y1',0)
-      .attr('x2',0)
-      .attr('y2',length)
+  // day2group.append('line')
+  //     .attr('stroke', 'red')
+  //     .attr('stroke-width',5)
+  //     .attr('opacity',0.6)
+  //     .attr('x1',0)
+  //     .attr('y1',0)
+  //     .attr('x2',0)
+  //     .attr('y2',length)
 
+    //center dot
   day2group.append('circle')
       .attr('r',5)
       .attr('fill', typecolor)
       .attr('cx', 3)
 
 
+
   day2group.attr('transform', randomTranslate)
-  // day1group.attr('cx', multiplecircle)
-
-
+  // day2group.attr('cx', noticable)
 }
 
+
+function checking(d, i) {
+  return d3.range(d.noticable);
+}
 
 function typecolor(p) {
   if (p['resist'] == 'convention') {
@@ -158,6 +216,22 @@ function length(p) {
 //     }
 //   }
 // }
+function background(svgi,d,i) {
+  svgi.selectAll(".backgroundcircle").data(d3.range(12)).enter()
+      .append('circle')
+        .attr('class','backgroundcircle')
+        .attr('r',12)
+        .attr('fill','lightgrey')
+        .attr('opacity',0.1)
+        .attr('cx',i/3)
+
+}
+
+function noticable(d,i) {
+  console.log('n',i, d.noticable)
+}
+
+
 
 
 d3.json("data.json").then(gotData);
