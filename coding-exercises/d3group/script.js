@@ -60,7 +60,7 @@ function categorizeByDay(data) {
 function day1point(data) {
 
   //background circles
-  backgroudcircle(svg1);
+  backgroundcircle(svg1);
 
   //define foreground groups
   let day1group = svg1.selectAll(".day1point").data(data)
@@ -100,10 +100,14 @@ function day1point(data) {
   day1group.append('circle')
       .attr('r',5)
       .attr('fill', typecolor)
-      .attr('cx',2)
   ;
 
-
+  day1group.append('text')
+      .text(function(d,i){
+        return (i+1)
+      })
+      .attr("fill", "red")
+  ;
 
 
   day1group.attr('transform', randomTranslate)
@@ -111,7 +115,7 @@ function day1point(data) {
 
 }
 
-function backgroudcircle(svgi) {
+function backgroundcircle(svgi) {
   let row = svgi.selectAll('.row').data(d3.range(12))
     .enter()
       .append('g')
@@ -135,7 +139,7 @@ function backgroudcircle(svgi) {
 function day2point(data) {
 
   //background circles
-  backgroudcircle(svg2);
+  backgroundcircle(svg2);
 
   //define foreground groups
   let day2group = svg2.selectAll(".day2point").data(data)
@@ -174,9 +178,15 @@ function day2point(data) {
   day2group.append('circle')
       .attr('r',5)
       .attr('fill', typecolor)
-      .attr('cx', 3)
+  ;
 
 
+      day2group.append('text')
+            .text(function(d,i){
+              return (i+1)
+            })
+            .attr("fill", "red")
+      ;
 
   day2group.attr('transform', randomTranslate)
   // day2group.attr('cx', noticable)

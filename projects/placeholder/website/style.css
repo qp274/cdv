@@ -1,5 +1,48 @@
-p{
-  color: blue;
-  font-style: italic;
-  font-family: sans-serif;
+
+function day7point(data) {
+
+  //background circles
+  backgroundcircle(svg7);
+
+  //define foreground groups
+  let day7group = svg7.selectAll(".day7point").data(data)
+    .enter()
+      .append('g')
+      .attr('class', 'day7point')
+  ;
+  // multiple circles
+  day7group.selectAll(".miniCircle").data(checking).enter()
+    .append("circle")
+      .attr("class", "miniCircle")
+      .attr("r", function(d, i){
+        return (i+2) * 10;
+      })
+      .attr('fill', typecolor)
+      .attr('opacity', 0.5)
+  ;
+
+//main circle
+  day7group.append('circle')
+      .attr('r',16)
+      .attr('fill', 'green')
+      .attr('opacity', 0.5)
+  ;
+
+//center dot
+  day7group.append('circle')
+      .attr('r',5)
+      .attr('fill', typecolor)
+  ;
+
+  day7group.append('text')
+      .text(function(d,i){
+        return (i+1+21)
+      })
+      .attr("fill", "red")
+  ;
+
+
+  day7group.attr('transform', randomTranslate)
+
+
 }

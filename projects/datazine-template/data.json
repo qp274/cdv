@@ -1,0 +1,425 @@
+[
+    {
+        "day": "day 1",
+        "description": "hang meat on clothe hangers",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 1
+    },
+    {
+        "day": "day 1",
+        "description": "chairs everywhere",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 2
+    },
+    {
+        "day": "day 1",
+        "description": "put fake grass under a tree",
+        "resist": "control",
+        "noticable": 0,
+        "xaxis": 0,
+        "yaxis": 1,
+        "number": 3
+    },
+    {
+        "day": "day 1",
+        "description": "barber put hair in a children's bathtub",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 1,
+        "yaxis": 2,
+        "number": 4
+    },
+    {
+        "day": "day 2",
+        "description": "fighting in public",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 5
+    },
+    {
+        "day": "day 2",
+        "description": "leave cat in a sink",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 3,
+        "yaxis": 1,
+        "number": 6
+    },
+    {
+        "day": "day 2",
+        "description": "chairs everywhere",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 7
+    },
+    {
+        "day": "day 2",
+        "description": "putting a bucket of cigarette buds under a no smoking sign",
+        "resist": "authority",
+        "noticable": 0,
+        "xaxis": 0,
+        "yaxis": 3,
+        "number": 8
+    },
+    {
+        "day": "day 2",
+        "description": "hang out laundry on public exercise equipment",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 2,
+        "yaxis": 4,
+        "number": 9
+    },
+    {
+        "day": "day 2",
+        "description": "holding a living bird in hand on the metro",
+        "resist": "control",
+        "noticable": 0,
+        "xaxis": 3,
+        "yaxis": 4,
+        "number": 10
+    },
+    {
+        "day": "day 2",
+        "description": "put a single white shoe on a wall of black shoes",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 11
+    },
+    {
+        "day": "day 3",
+        "description": "jump over the railing in the middle of the road",
+        "resist": "authority",
+        "noticable": 2,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 12
+    },
+    {
+        "day": "day 3",
+        "description": "crossing street on red light",
+        "resist": "authority",
+        "noticable": 2,
+        "xaxis": 4,
+        "yaxis": 3,
+        "number": 13
+    },
+    {
+        "day": "day 3",
+        "description": "plant flowers inside car tires",
+        "resist": "convention",
+        "noticable": 2,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 14
+    },
+    {
+        "day": "day 4",
+        "description": "hang wash cloths on the bush",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 2,
+        "number": 15
+    },
+    {
+        "day": "day 4",
+        "description": "hang plastic bags in the tree",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 1,
+        "yaxis": 1,
+        "number": 16
+    },
+    {
+        "day": "day 4",
+        "description": "put a bowl under the tree to contain fallen leaves",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 17
+    },
+    {
+        "day": "day 4",
+        "description": "collect tiles and place them all over the street",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 1,
+        "yaxis": 2,
+        "number": 18
+    },
+    {
+        "day": "day 4",
+        "description": "writing on the wall to ask someone to pay their debts",
+        "resist": "authority",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 3,
+        "number": 19
+    },
+    {
+        "day": "day 4",
+        "description": "chairs everywhere",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 20
+    },
+    {
+        "day": "day 5",
+        "description": "open a beer bottle by slamming it against stairs",
+        "resist": "convention",
+        "noticable": 0,
+        "xaxis": 2,
+        "yaxis": 3,
+        "number": 21
+    },
+    {
+        "day": "day 5",
+        "description": "put a stool on a motorbike as a child's seat",
+        "resist": "authority",
+        "noticable": 1,
+        "xaxis": 3,
+        "yaxis": 4,
+        "number": 22
+    },
+    {
+        "day": "day 5",
+        "description": "hang goose meat over a framed calligraphy piece",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 1,
+        "number": 23
+    },
+    {
+        "day": "day 5",
+        "description": "children refuse to have pictures taken",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 24
+    },
+    {
+        "day": "day 5",
+        "description": "chairs everywhere",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 25
+    },
+    {
+        "day": "day 6",
+        "description": "pick the lock of a deserted construction site",
+        "resist": "authority",
+        "noticable": 0,
+        "xaxis": 2,
+        "yaxis": 4,
+        "number": 26
+    },
+    {
+        "day": "day 6",
+        "description": "children sit on top of architectural sculptures for pictures",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 3,
+        "yaxis": 4,
+        "number": 27
+    },
+    {
+        "day": "day 6",
+        "description": "children refuse to have pictures taken",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 2,
+        "yaxis": 0,
+        "number": 28
+    },
+    {
+        "day": "day 6",
+        "description": "smoking indoor",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 29
+    },
+    {
+        "day": "day 6",
+        "description": "smoking outdoor",
+        "resist": "convention",
+        "noticable": 0,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 30
+    },
+    {
+        "day": "day 6",
+        "description": "leaving the table during spring festival dinner",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 3,
+        "number": 31
+    },
+    {
+        "day": "day 7",
+        "description": "put eyeball stickers on tomatoes",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 32
+    },
+    {
+        "day": "day 7",
+        "description": "plant a fake tulip into the ground",
+        "resist": "convention",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 1,
+        "number": 33
+    },
+    {
+        "day": "day 7",
+        "description": "doddle on the wall",
+        "resist": "authority",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 2,
+        "number": 34
+    },
+    {
+        "day": "day 7",
+        "description": "stick a balloon onto a surveilance camera lens",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 1,
+        "yaxis": 3,
+        "number": 35
+    },
+    {
+        "day": "day 7",
+        "description": "climb on top of the toilet in a public park",
+        "resist": "authority",
+        "noticable": 2,
+        "xaxis": 1,
+        "yaxis": 4,
+        "number": 36
+    },
+    {
+        "day": "day 7",
+        "description": "smoking indoor",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 37
+    },
+    {
+        "day": "day 7",
+        "description": "children refuse to have pictures taken",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 0,
+        "yaxis": 2,
+        "number": 38
+    },
+    {
+        "day": "day 8",
+        "description": "hang laundry on electric wire",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 4,
+        "yaxis": 5,
+        "number": 39
+    },
+    {
+        "day": "day 8",
+        "description": "tie a chair on the railing close to a river",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 3,
+        "yaxis": 3,
+        "number": 40
+    },
+    {
+        "day": "day 8",
+        "description": "swinging fireworks",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 41
+    },
+    {
+        "day": "day 8",
+        "description": "take away characters on a sign saying \"prioritize quality\"",
+        "resist": "convention",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 2,
+        "number": 42
+    },
+    {
+        "day": "day 9",
+        "description": "child shooting arrows onto a map",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 4,
+        "yaxis": 3,
+        "number": 43
+    },
+    {
+        "day": "day 9",
+        "description": "throw orange peels in a river",
+        "resist": "convention",
+        "noticable": 1,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 44
+    },
+    {
+        "day": "day 9",
+        "description": "stick drawing of feet onto someone's window",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 45
+    },
+    {
+        "day": "day 9",
+        "description": "two children operating exercise machine meant for one person",
+        "resist": "convention",
+        "noticable": 2,
+        "xaxis": 1,
+        "yaxis": 2,
+        "number": 46
+    },
+    {
+        "day": "day 9",
+        "description": "use complaint box as ashtray",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 4,
+        "number": 47
+    }
+]
