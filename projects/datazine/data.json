@@ -1,0 +1,473 @@
+[
+    {
+        "day": "day 1",
+        "description": "hang meat on clothes hangers",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 1,
+        "attribute": "alternative use of everyday object"
+    },
+    {
+        "day": "day 1",
+        "description": "chairs inside flowerbed",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 2,
+        "attribute": "chairs where they are not supposed to be"
+    },
+    {
+        "day": "day 1",
+        "description": "put fake grass under a tree",
+        "resist": "control",
+        "noticable": 0,
+        "xaxis": 0,
+        "yaxis": 1,
+        "number": 3,
+        "attribute": "juxtaposition"
+    },
+    {
+        "day": "day 1",
+        "description": "barber put hair in a children's bathtub",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 1,
+        "yaxis": 2,
+        "number": 4,
+        "attribute": "alternative use of everyday object"
+    },
+    {
+        "day": "day 2",
+        "description": "fighting in public",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 5,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 2",
+        "description": "leave cat in a sink",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 3,
+        "yaxis": 1,
+        "number": 6,
+        "attribute": "dubious consent"
+    },
+    {
+        "day": "day 2",
+        "description": "deserted chairs everywhere",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 7,
+        "attribute": "chairs where they are not supposed to be"
+    },
+    {
+        "day": "day 2",
+        "description": "putting a bucket of cigarette buds under a no smoking sign",
+        "resist": "authority",
+        "noticable": 0,
+        "xaxis": 0,
+        "yaxis": 3,
+        "number": 8,
+        "attribute": "accidentally political"
+    },
+    {
+        "day": "day 2",
+        "description": "hang out laundry on public exercise equipment",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 2,
+        "yaxis": 4,
+        "number": 9,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 2",
+        "description": "holding a living bird in hand on the metro",
+        "resist": "control",
+        "noticable": 0,
+        "xaxis": 3,
+        "yaxis": 4,
+        "number": 10,
+        "attribute": "dubious consent"
+    },
+    {
+        "day": "day 2",
+        "description": "put a single white shoe on a wall of black shoes",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 11,
+        "attribute": "juxtaposition"
+    },
+    {
+        "day": "day 3",
+        "description": "jump over the railing in the middle of the road",
+        "resist": "authority",
+        "noticable": 2,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 12,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 3",
+        "description": "crossing street on red light",
+        "resist": "authority",
+        "noticable": 2,
+        "xaxis": 4,
+        "yaxis": 3,
+        "number": 13,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 3",
+        "description": "plant flowers inside car tires",
+        "resist": "convention",
+        "noticable": 2,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 14,
+        "attribute": "alternative use of everyday object"
+    },
+    {
+        "day": "day 4",
+        "description": "hang wash cloths on the bush",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 2,
+        "number": 15,
+        "attribute": "alternative use of everyday object"
+    },
+    {
+        "day": "day 4",
+        "description": "hang plastic bags in the tree",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 1,
+        "yaxis": 1,
+        "number": 16,
+        "attribute": "juxtaposition"
+    },
+    {
+        "day": "day 4",
+        "description": "put a bowl under the tree to contain fallen leaves",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 17,
+        "attribute": "juxtaposition"
+    },
+    {
+        "day": "day 4",
+        "description": "collect tiles and place them all over the street",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 1,
+        "yaxis": 2,
+        "number": 18,
+        "attribute": "invading public space",
+        "undefined": 18
+    },
+    {
+        "day": "day 4",
+        "description": "writing on the wall to ask someone to pay their debts",
+        "resist": "authority",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 3,
+        "number": 19,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 4",
+        "description": "deserted chairs everywhere",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 20,
+        "attribute": "chairs where they are not supposed to be"
+    },
+    {
+        "day": "day 5",
+        "description": "open a beer bottle by slamming it against stairs",
+        "resist": "convention",
+        "noticable": 0,
+        "xaxis": 2,
+        "yaxis": 3,
+        "number": 21,
+        "attribute": "alternative use of everyday object"
+    },
+    {
+        "day": "day 5",
+        "description": "put a stool on a motorbike as a child's seat",
+        "resist": "authority",
+        "noticable": 1,
+        "xaxis": 3,
+        "yaxis": 4,
+        "number": 22,
+        "attribute": "chairs where they are not supposed to be"
+    },
+    {
+        "day": "day 5",
+        "description": "hang goose meat over a framed calligraphy piece",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 1,
+        "number": 23,
+        "attribute": "juxtaposition"
+    },
+    {
+        "day": "day 5",
+        "description": "children refuse to have pictures taken",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 24,
+        "attribute": "dubious consent"
+    },
+    {
+        "day": "day 5",
+        "description": "a row of 11 chairs on the road",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 25,
+        "attribute": "chairs where they are not supposed to be"
+    },
+    {
+        "day": "day 6",
+        "description": "pick the lock of a deserted construction site",
+        "resist": "authority",
+        "noticable": 0,
+        "xaxis": 2,
+        "yaxis": 4,
+        "number": 26,
+        "attribute": "accidentally political"
+    },
+    {
+        "day": "day 6",
+        "description": "children sit on top of architectural sculptures for pictures",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 3,
+        "yaxis": 4,
+        "number": 27,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 6",
+        "description": "children refuse to have pictures taken",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 2,
+        "yaxis": 0,
+        "number": 28,
+        "attribute": "dubious consent"
+    },
+    {
+        "day": "day 6",
+        "description": "smoking indoors",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 29,
+        "attribute": "dubious consent"
+    },
+    {
+        "day": "day 6",
+        "description": "smoking outdoors",
+        "resist": "convention",
+        "noticable": 0,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 30,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 6",
+        "description": "leaving the table during spring festival dinner",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 3,
+        "number": 31,
+        "attribute": "accidentally political"
+    },
+    {
+        "day": "day 7",
+        "description": "put eyeball stickers on tomatoes",
+        "resist": "convention",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 32,
+        "attribute": "juxtaposition"
+    },
+    {
+        "day": "day 7",
+        "description": "plant a fake tulip into the ground",
+        "resist": "convention",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 1,
+        "number": 33,
+        "attribute": "juxtaposition"
+    },
+    {
+        "day": "day 7",
+        "description": "doddle on the wall",
+        "resist": "authority",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 2,
+        "number": 34,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 7",
+        "description": "stick a balloon onto a surveilance camera lens",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 1,
+        "yaxis": 3,
+        "number": 35,
+        "attribute": "accidentally political"
+    },
+    {
+        "day": "day 7",
+        "description": "climb on top of a hut in a public park",
+        "resist": "authority",
+        "noticable": 2,
+        "xaxis": 1,
+        "yaxis": 4,
+        "number": 36,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 7",
+        "description": "smoking indoors",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 37,
+        "attribute": "dubious consent"
+    },
+    {
+        "day": "day 7",
+        "description": "children refuse to have pictures taken",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 0,
+        "yaxis": 2,
+        "number": 38,
+        "attribute": "dubious consent"
+    },
+    {
+        "day": "day 8",
+        "description": "hang laundry on electric wire",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 4,
+        "yaxis": 3,
+        "number": 39,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 8",
+        "description": "tie a chair on the railing close to a river",
+        "resist": "control",
+        "noticable": 3,
+        "xaxis": 3,
+        "yaxis": 3,
+        "number": 40,
+        "attribute": "chairs where they are not supposed to be"
+    },
+    {
+        "day": "day 8",
+        "description": "flinging fireworks",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 4,
+        "yaxis": 4,
+        "number": 41,
+        "attribute": "invading public space"
+    },
+    {
+        "day": "day 8",
+        "description": "take away characters on a sign saying \"prioritize quality\"",
+        "resist": "convention",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 2,
+        "number": 42,
+        "attribute": "accidentally political"
+    },
+    {
+        "day": "day 9",
+        "description": "child shooting arrows onto a map",
+        "resist": "control",
+        "noticable": 2,
+        "xaxis": 4,
+        "yaxis": 3,
+        "number": 43,
+        "attribute": "alternative use of everyday object"
+    },
+    {
+        "day": "day 9",
+        "description": "throw orange peels in a river",
+        "resist": "convention",
+        "noticable": 1,
+        "xaxis": 2,
+        "yaxis": 2,
+        "number": 44,
+        "attribute": "juxtaposition"
+    },
+    {
+        "day": "day 9",
+        "description": "stick drawing of feet onto someone's window",
+        "resist": "control",
+        "noticable": 1,
+        "xaxis": 0,
+        "yaxis": 0,
+        "number": 45,
+        "attribute": "dubious consent"
+    },
+    {
+        "day": "day 9",
+        "description": "two children operating exercise machine meant for one person",
+        "resist": "convention",
+        "noticable": 2,
+        "xaxis": 1,
+        "yaxis": 2,
+        "number": 46,
+        "attribute": "alternative use of everyday object"
+    },
+    {
+        "day": "day 9",
+        "description": "use complaint box as ashtray",
+        "resist": "authority",
+        "noticable": 3,
+        "xaxis": 0,
+        "yaxis": 4,
+        "number": 47,
+        "attribute": "accidentally political"
+    }
+]

@@ -1,0 +1,55 @@
+.svg {
+  /* border: red solid 1px; */
+  /* background-color: lightblue; */
+}
+
+.day {
+  /* border: green solid 1px; */
+  width: 250px;
+  height: 340px;
+
+  position: absolute;
+
+
+}
+#day1, #day2,#day3,#day4,#day5,#day6 {
+  top: 30px;
+}
+
+#day1 {
+  left: 125px;
+}
+
+#day2 {
+  left: 475px;
+}
+
+#day3 {
+  left: 825px;
+}
+
+#day4 {
+  left: 1325px;
+}
+
+#day5 {
+  left: 1675px;
+}
+
+#day6 {
+  left: 2025px;
+}
+
+#day7, #day8,#day9 {
+  top: 400px;
+}
+
+#day7 {
+  left:125px;
+}
+#day8 {
+  left: 475px;
+}
+#day9 {
+  left: 825px;
+}
