@@ -355,7 +355,7 @@
         "description": "climb on top of a hut in a public park",
         "resist": "authority",
         "noticable": 2,
-        "xaxis": 1,
+        "xaxis": 4,
         "yaxis": 4,
         "number": 36,
         "attribute": "invading public space"
@@ -365,7 +365,7 @@
         "description": "smoking indoors",
         "resist": "authority",
         "noticable": 3,
-        "xaxis": 4,
+        "xaxis": 2,
         "yaxis": 4,
         "number": 37,
         "attribute": "dubious consent"
