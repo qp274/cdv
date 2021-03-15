@@ -10,7 +10,7 @@ let viz = d3.select("#container")
   .append("svg")
     .attr("width", w)
     .attr("height", h)
-    .style("background-color", "lavender")
+    .style("background-color", "grey")
 ;
 
 
@@ -76,7 +76,36 @@ function gotData(incomingData){
   }
 
 
+  function getGroupLocation(d,i) {
+    let x = xScale(d.fert)
+    let y = yScale(d.life)
+    return "translate(" + x +"," + y + ")"
+  }
 
+  function getIncomingGroupLocation(d,i) {
+    let x = xScale(d.fert)
+    let y = -30
+    return "translate(" + x +"," + y + ")"
+  }
+
+  function colorfunc(d,i) {
+    if (d.continent == 'Asia') {
+      return 'red'
+    }
+    if (d.continent == 'Europe') {
+      return 'lightgreen'
+    }
+    if (d.continent == 'Africa') {
+      return 'blue'
+    }
+    if (d.continent == 'Americas') {
+      return 'orange'
+    }
+    if (d.continent == 'Oceania') {
+      return 'pink'
+    }
+
+  }
 
 
 
@@ -103,16 +132,73 @@ function gotData(incomingData){
     // the three steps in the comments below help you to know what to aim for here
 
     // bind currentYearData to elements
+    function assignKeys(d,i) {
+      return d.Country
+    }
 
+    function assignid(d,i) {
+      return '#'+d.Country
+    }
+
+    let datagroups = vizGroup.selectAll('.datagroups').data(currentYearData, assignKeys);
 
 
     // take care of entering elements
+    let enteringElements = datagroups.enter()
+      .append('g')
+        .attr('class', 'datagroups')
+    ;
+
+    enteringElements.append('circle')
+      .attr('r', function(d,i){
+        return rScale(d.pop)
+      })
+      .attr('opacity', 0.4)
+      .attr('fill', colorfunc)
+      .attr('id', assignKeys)
+    ;
+
+    enteringElements.append('text')
+      .text(function(d,i){
+        return d.Country
+      })
+      .attr('opacity', 1)
+      .attr('font-size', '10px')
+      .attr('fill',colorfunc)
+      .attr('x',0)
+      .attr('y',0)
+      .on('mouseover', function(d,i){
+        radius= rScale(d.pop)
+        d3.select(this)
+        .attr('font-size', '32px')
+        .attr('stroke','darkgrey')
+        .attr('stroke-width', '0.4px');
+        // d3.select(this).append('circle').attr('r', radius).attr('id', 'ring').attr('fill',colorfunc).attr('opacity',1)
+        // d3.select(assignid).attr('opacity', 1);
+      })
+      .on('mouseout', function(d,i){
+        d3.select(this)
+        .attr('font-size', '10px')
+        .attr('stroke',colorfunc)
+        .attr('stroke-width', 0)
+
+      })
+    ;
+
+
+
+
+    enteringElements.transition('transform', getIncomingGroupLocation).attr('transform',getGroupLocation);
 
 
 
     // take care of updating elements
-
-
+    datagroups.select('circle')
+      .attr('r', function(d,i){
+        return rScale(d.pop)
+      })
+    ;
+    datagroups.transition().duration(1000).attr('transform', getGroupLocation);
 
 
 
@@ -148,12 +234,6 @@ function gotData(incomingData){
     year.text(currentYear)
     drawViz();
   }, 1000);
-
-
-
-
-
-
 }
 
 
