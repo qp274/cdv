@@ -551,7 +551,7 @@ function sortData(){
   // each element on the page is associated with one datapoint
   // of the OLD data array. With our new data, we will now overwrite
   // those associations. let's start by asking D3 to assess what's up:
-  elementsForPage = graphGroup.selectAll(".datapoint").data(data);
+  elementsForPage = graphGroup.selectAll(".datapoint").data(data,function(d){return d.key});
   // note, we don't need "let" because the variable elementsForPage already exists
   console.log(elementsForPage);
   // look at this, it's slightly unexpected at first, but fold out
