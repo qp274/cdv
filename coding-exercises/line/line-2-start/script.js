@@ -48,7 +48,7 @@ function gotData(incomingData){
   ;
   yAxisGroup.call(yAxis);
 
-//////////////////////////////////////////////////////////////////////////////////////
+
   let graphGroup = viz.append("g").attr("class", "graphGroup");
 
   let lineMaker = d3.line()
@@ -61,6 +61,7 @@ function gotData(incomingData){
   ;
 
 
+/////////////////////////////////////////!!!!!!!!!!!!!!!!!!!!!!!!!!!!//////////////////////////////
   function splitdata() {
     usadata = [];
     chinadata = [];
@@ -72,11 +73,9 @@ function gotData(incomingData){
     console.log('china',chinadata)
   }
 
-
-
   function usabutton() {
     splitdata();
-    ////////////!!!!!!!!!!!!data feed into "path" should be an array of array: look like [ [{1},{2},{3},{4}], [{1},{2},{3},{4}], [{1},{2},{3},{4}] ]
+    //data feed into "path" should be an array of array: look like [ [{1},{2},{3},{4}], [{1},{2},{3},{4}], [{1},{2},{3},{4}] ]
     graphGroup.selectAll('.line').data(usadata).enter()
       .append('path')
       .attr('d', lineMaker)
@@ -113,7 +112,7 @@ function gotData(incomingData){
       .attr("stroke", "red");
   }
   document.getElementById("china").addEventListener("click", chinabutton);
-
+////////////////////////////////////////////////////////////////////////////////////////
 }
 
 
