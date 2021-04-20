@@ -6,10 +6,10 @@ body{
 
 
 #gradient {
-  width: 800px;
-  height:90px;
+  width: 240px;
+  height:27px;
   background-image: linear-gradient(to right, red , white);
   position: absolute;
-  top:2700px;
-  left:800px;
+  top:130px;
+  left:200px;
 }

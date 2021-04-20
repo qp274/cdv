@@ -1,5 +1,5 @@
-let w = 4800;
-let h = 3200;
+let w = 1200;
+let h = 800;
 let padding = 30;
 
 // SVG
@@ -58,7 +58,7 @@ d3.json("countries.geojson").then(function(geoData){
     let maxdu = d3.max(incomingData,function(d,i){
       return d.duration
     });
-    let sizeScale = d3.scaleSqrt().domain([mindu, maxdu]).range([0.01,0.05]);
+    let sizeScale = d3.scaleSqrt().domain([mindu, maxdu]).range([0.01,0.04]);
     console.log(maxdu);
     console.log(mindu);
 
