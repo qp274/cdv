@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+  margin-top:30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#gradient {
+  width: 800px;
+  height:90px;
+  background-image: linear-gradient(to right, red , white);
+  position: absolute;
+  top:2700px;
+  left:800px;
+}
