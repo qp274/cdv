@@ -1,0 +1,16 @@
+body{
+  margin:0;
+  text-align:center;
+}
+
+.button{
+  fill: white;
+}
+/* .button:hover{
+  fill: #f8f8f8;
+} */
+
+.tooltip text{
+  fill:white;
+  font-family: sans-serif;
+}

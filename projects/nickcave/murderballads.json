@@ -1,0 +1,562 @@
+[
+    {
+        "song": "Song of Joy",
+        "category": "mother",
+        "death": "stabbed",
+        "name": "Joy",
+        "count": 1,
+        "key": 1
+    },
+    {
+        "song": "Song of Joy",
+        "category": "child",
+        "death": "stabbed",
+        "name": "Hilda",
+        "count": 1,
+        "key": 2
+    },
+    {
+        "song": "Song of Joy",
+        "category": "child",
+        "death": "stabbed",
+        "name": "Hattie",
+        "count": 1,
+        "key": 3
+    },
+    {
+        "song": "Song of Joy",
+        "category": "child",
+        "death": "stabbed",
+        "name": "Holly",
+        "count": 1,
+        "key": 4
+    },
+    {
+        "song": "Song of Joy",
+        "category": "man",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 1,
+        "key": 5
+    },
+    {
+        "song": "Stagger Lee",
+        "category": "bartender",
+        "death": "gun",
+        "name": "unknown",
+        "count": 1,
+        "key": 6
+    },
+    {
+        "song": "Stagger Lee",
+        "category": "man",
+        "death": "gun",
+        "name": "Billy Dilly",
+        "count": 1,
+        "key": 7
+    },
+    {
+        "song": "Henry Lee",
+        "category": "man",
+        "death": "knife",
+        "name": "Henry Lee",
+        "count": 1,
+        "key": 8
+    },
+    {
+        "song": "Lovely Creature",
+        "category": "youngwoman",
+        "death": "sand",
+        "name": "\"lovely creature\"",
+        "count": 1,
+        "key": 9
+    },
+    {
+        "song": "Where the Wild Roses Grow",
+        "category": "youngwoman",
+        "death": "rock",
+        "name": "Elisa Day",
+        "count": 1,
+        "key": 10
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "drowned",
+        "name": "Bill Blakey's little boy",
+        "count": 1,
+        "key": 11
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "dog",
+        "death": "nailed",
+        "name": "Biko",
+        "count": 1,
+        "key": 12
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "man",
+        "death": "drowned",
+        "name": "Handyman Joe",
+        "count": 1,
+        "key": 13
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "old woman",
+        "death": "stabbed",
+        "name": "Mrs Colgate",
+        "count": 1,
+        "key": 14
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "sister",
+        "death": "unknown",
+        "name": "unknown",
+        "count": "unknown",
+        "key": 15
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "brother",
+        "death": "unknown",
+        "name": "unknown",
+        "count": "unknown",
+        "key": 16
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 17
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 18
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 19
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 20
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 21
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 22
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 23
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 24
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 25
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 26
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 27
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 28
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 29
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 30
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 31
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 32
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 33
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 34
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 35
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "child",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 36
+    },
+    {
+        "song": "The Curse of Millhaven",
+        "category": "unkown",
+        "death": "fire",
+        "name": "Bella Vista slum",
+        "count": "unknown",
+        "key": 37
+    },
+    {
+        "song": "The Kindness of Strangers",
+        "category": "woman",
+        "death": "shot",
+        "name": "Mary Bellows",
+        "count": 1,
+        "key": 38
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 39
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 40
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 41
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 42
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 43
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 44
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 45
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 46
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 47
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 48
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 49
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 50
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 51
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 52
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 53
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 54
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 55
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 56
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 57
+    },
+    {
+        "song": "Crow Jane",
+        "category": "rapist",
+        "death": "unknown",
+        "name": "unknown",
+        "count": 20,
+        "key": 58
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "bartender",
+        "death": "shot",
+        "name": "O'Malley",
+        "count": 1,
+        "key": 59
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "wife",
+        "death": "shot",
+        "name": "O'Malley's wife",
+        "count": 1,
+        "key": 60
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "youngwoman",
+        "death": "strangled ",
+        "name": "Siobhan",
+        "count": 1,
+        "key": 61
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "man",
+        "death": "shot",
+        "name": "Caffrey",
+        "count": 1,
+        "key": 62
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "woman",
+        "death": "shot",
+        "name": "Mrs. Richard Holmes",
+        "count": 1,
+        "key": 63
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "husband",
+        "death": "shot",
+        "name": "Richard Holmes",
+        "count": 1,
+        "key": 64
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "man",
+        "death": "shot",
+        "name": "Mr.Brookes",
+        "count": 1,
+        "key": 65
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "man",
+        "death": "shot",
+        "name": "Richardson",
+        "count": 1,
+        "key": 66
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "man",
+        "death": "slammed",
+        "name": "Jerry Bellows",
+        "count": 1,
+        "key": 67
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "man",
+        "death": "shot",
+        "name": "Henry Davenport",
+        "count": 1,
+        "key": 68
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "woman",
+        "death": "shot",
+        "name": "Kathleen Carpenter",
+        "count": 1,
+        "key": 69
+    },
+    {
+        "song": "O'Malley's Bar",
+        "category": "man",
+        "death": "shot",
+        "name": "Vincent West",
+        "count": 1,
+        "key": 70
+    }
+]
