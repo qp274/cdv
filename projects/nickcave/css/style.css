@@ -100,13 +100,13 @@ hr {
 }
 #bandintro1,#bandintro2,#bandintro3{
   opacity: 0;
-  transition-duration: 2s
+  transition-duration: 1s
 }
 #bandintro2{
-  transition-delay: 0.5s;
+  transition-delay: 0.3s;
 }
 #bandintro3{
-  transition-delay: 1s;
+  transition-delay: 0.6s;
 }
 .namehighlight {
  color:#910000;
@@ -129,8 +129,8 @@ hr {
   /* width:40%; */
   /* text-align: center; */
   opacity: 0;
-  transition-delay: 1s;
-  transition-duration: 2s;
+  transition-delay: 0.3s;
+  transition-duration: 1s;
   width: 100%;
   padding-left:50px;
   text-align: left;
@@ -153,7 +153,7 @@ hr {
   margin-top: 80px;
   /* background-color: white; */
   opacity: 0;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 img {
@@ -184,7 +184,7 @@ pointer-events: none;
   opacity: 0;
 }
 #viz4 {
-  transition-duration: 2s
+  transition-duration: 1s
 }
 .viz2 {
   width:70%;
