@@ -2,11 +2,16 @@ body {
   background-color: #f5f3ef;
   text-align: center;
   margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Zilla Slab', serif;
   font-size: 120%;
+}
+hr {
+  color: #bf0000;
+  background-color:#bf0000;
+  height:0.3px;
 }
 #quantifylin,#nickline,#byline,#dateline {
   line-height: 50px;
@@ -73,24 +78,83 @@ body {
 } */
 
 .intro,.description {
-  width:30%;
+  width:35%;
   /* margin-left: auto; */
-  margin-right: auto;
+  margin-right: 110%;
+  /* margin-left: 0; */
   display: table;
   margin-bottom: 150px;
   margin-top:50px;
   pointer-events: none;
+  /* z-index: 1; */
 
+}
+.bandintro {
+  width:50%;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#bandintro1,#bandintro2,#bandintro3{
+  opacity: 0;
+  transition-duration: 2s
+}
+#bandintro2{
+  transition-delay: 0.5s;
+}
+#bandintro3{
+  transition-delay: 1s;
+}
+.namehighlight {
+ color:#910000;
+ font-weight: bold;
 }
 #intropara1, #intropara2,#intropara3 {
   display: table-cell;
   text-align: left;
-  color:#bf0000;
+  /* color:#bf0000; */
   pointer-events: none;
-
+  /* transition-duration: 1s */
   /* opacity: 0; */
 }
 
+#intropara0 {
+  /* height:40%; */
+  /* margin-top: 150px; */
+  /* margin-right: auto; */
+  /* z-index: 1; */
+  /* width:40%; */
+  /* text-align: center; */
+  opacity: 0;
+  transition-delay: 1s;
+  transition-duration: 2s;
+  width: 100%;
+  padding-left:50px;
+  text-align: left;
+}
+#mbcontainer {
+  width: 50%;
+  opacity: 0;
+  transition-duration: 2s
+  /* margin-top: 100px; */
+}
+#album {
+  width:70%;
+  display: flex;
+  padding: 50px;
+  /* padding-bottom: 50px; */
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+  /* background-color: white; */
+  opacity: 0;
+  transition-duration: 2s;
+}
 
 img {
 max-width:100%;
@@ -99,60 +163,89 @@ pointer-events: none;
 }
 
 .viz1 {
-  width:300px;
+  width:400px;
   height:100%;
   /* background-color: green; */
 
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   /* sticky */
   top:50px;
-  z-index: -2;
+  /* z-index: -1; */
   position: sticky;
   /* border: 1px solid red; */
 
 
 }
-
+.viz4{
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0;
+}
+#viz4 {
+  transition-duration: 2s
+}
 .viz2 {
-  /* width:60%; */
+  width:70%;
+  /* height:8000; */
   /* background-color: green; */
   margin-left: auto;
   /* margin-right: auto; */
   /* sticky */
-  top:130px;
-  z-index: -1;
-  position: sticky;
-  border: 1px solid green;
+  top:50px;
+
+  height: 1600px;
+  /* position: sticky; */
+  /* border: 1px solid green; */
+  /* pointer-events: none; */
+}
+.stretcher {
+  width:70%;
+  margin-left: auto;
+  height:100px;
   pointer-events: none;
 }
-
-#des1, #des2,#des3 {
-  display: table-cell;
-  text-align: left;
-  color:blue;
+.description {
+  position: sticky;
+  z-index: -1;
+  top:50px;
   pointer-events: none;
-  /* pointer-events: none; */
+
+}
+#des1, #des2,#des3 {
+  /* display: table-cell; */
+  width:30%;
+  text-align: left;
+  color:black;
+  pointer-events: none;
 }
 
 .viz3 {
+  width:70%;
   /* width:100%; */
   /* background-color: green; */
+  /* height:2000px; */
   margin-left: auto;
-  margin-right: auto;
+  /* margin-right: auto; */
   margin-top: 100px;
+  /* height:1200px; */
   /* sticky */
   top:50px;
   z-index: -1;
-  position: sticky;
+  /* position: sticky; */
   pointer-events: none;
   /* border: 1px solid blue; */
 }
 
-#des4,#des5 {
-  opacity: 0;
+#des4{
+  /* opacity: 0; */
+  /* top:-300px; */
+  /* position: relative; */
   pointer-events: none;
+  /* position: sticky; */
+  position: absolute;
+  top:-500px;
 }
 
 
@@ -170,6 +263,31 @@ pointer-events: none;
 }
 
 div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+.point {
+  pointer-events: all;
+}
+.rect {
+  pointer-events: all;
+}
 
+.epilogue {
+  width:50%;
+  height:200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: white; */
+  margin-top: 1%;
+  margin-bottom: 5%;
+  padding: 20px;
+  text-align: left;
+}
+
+#thanksline {
+  left: 100px;
+}
+
+a {
+  color: black;
 }

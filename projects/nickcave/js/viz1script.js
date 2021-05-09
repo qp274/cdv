@@ -1,12 +1,12 @@
 let w = 900;
 let h = 600;
 let padding = 30;
-let mid1 = padding+(((h/3)-(padding*2))/2);
-let bot1 = (h/3)-padding;
-let mid2 = (h/3)+padding+(((h/3)-(padding*2))/2)
-let bot2 = ((h/3)*2)-padding;
-let mid3 = h-padding-(((h/3)-(padding*2))/2)
-let bot3 = h-padding;
+let mid1 = padding+(((h/3)-(padding*2))/2)+100;
+let bot1 = (h/3)-padding+100;
+let mid2= (h/3)+padding+(((h/3)-(padding*2))/2)
+let bot2= ((h/3)*2)-padding;
+let mid3 = h-padding-(((h/3)-(padding*2))/2)-100
+let bot3 = h-padding-100;
 let leftpadding = 30;
 let rightpadding = 30;
 
@@ -21,40 +21,49 @@ let viz1 = d3.select('.viz1')
 d3.json("murderballads.json").then(function(incomingData){
 
   function wrap(text, width) {
-  text.each(function() {
-    var text = d3.select(this),
-        words = text.text().split(/\s+/).reverse(),
-        word,
-        line = [],
-        lineNumber = 0,
-        lineHeight = 1.1, // ems
-        y = text.attr("y"),
-        dy = parseFloat(text.attr("dy")),
-        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-    while (word = words.pop()) {
-      line.push(word);
-      tspan.text(line.join(" "));
-      if (tspan.node().getComputedTextLength() > width) {
-        line.pop();
-        tspan.text(line.join(" "));
-        line = [word];
-        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-      }
-    }
-  });
+    text.each(function () {
+        var text = d3.select(this),
+            words = text.text().split(/\s+/).reverse(),
+            word,
+            line = [],
+            lineNumber = 0,
+            lineHeight = 1, // ems
+            x = text.attr("x"),
+            y = text.attr("y"),
+            dy = 1, //parseFloat(text.attr("dy")),
+            tspan = text.text(null)
+                        .append("tspan")
+                        .attr("x", x)
+                        .attr("y", y)
+                        .attr("dy", dy + "em");
+        while (word = words.pop()) {
+            line.push(word);
+            tspan.text(line.join(" "));
+            if (tspan.node().getComputedTextLength() > width) {
+                line.pop();
+                tspan.text(line.join(" "));
+                line = [word];
+                tspan = text.append("tspan")
+                            .attr("x", 0)
+                            .attr("y", y)
+                            .attr("dy", ++lineNumber * lineHeight + dy + "em")
+                            .text(word);
+            }
+        }
+    });
 }
   ////////////////////////cleaning the data/////////////////////////////////////////
   let songnestMaker = d3.nest().key(function(d){ return d.song });
   let databysong = songnestMaker.entries(incomingData);
-  console.log('data by song',databysong);
+  // console.log('data by song',databysong);
 
   let deathnestMaker = d3.nest().key(function(d){ return d.death });
   let databydeath = deathnestMaker.entries(incomingData);
-  console.log('data by death type',databydeath);
+  // console.log('data by death type',databydeath);
 
   let categorynestMaker = d3.nest().key(function(d){ return d.category });
   let databycategory = categorynestMaker.entries(incomingData);
-  console.log('data by category',databycategory);
+  // console.log('data by category',databycategory);
 
 
 
@@ -80,9 +89,12 @@ d3.json("murderballads.json").then(function(incomingData){
   let songAxisGroup = viz1.append("g").attr("class", "xaxis songaxis");
 
   songAxisGroup.attr("transform", "translate(0,"+(bot1)+")");
-  songAxisGroup.selectAll("text").attr("font-size", 24).attr("y", 9);
+  songAxisGroup.selectAll("text").attr("font-size", 24).attr("y", 15);
   songAxisGroup.call(songAxis);
-
+  songAxisGroup.attr('opacity',0)
+  songAxisGroup.selectAll(".tick text")
+      .call(wrap, songScale.bandwidth())
+  ;
 /////////////////////death x axis//////////////////////////////////
 let deathScale = d3.scaleBand()
     .domain(deathlist)
@@ -95,7 +107,7 @@ let deathAxisGroup = viz1.append("g").attr("class", "xaxis deathaxis");
 deathAxisGroup.attr("transform", "translate(0,"+(bot2)+")");
 deathAxisGroup.selectAll("text").attr("font-size", 24).attr("y", 9);
 deathAxisGroup.call(deathAxis);
-
+deathAxisGroup.attr('opacity',0)
 
 /////////////////////category x axis//////////////////////////////////
 let categoryScale = d3.scaleBand()
@@ -109,7 +121,7 @@ let categoryAxisGroup = viz1.append("g").attr("class", "xaxis categoryaxis");
 categoryAxisGroup.attr("transform", "translate(0,"+(bot3)+")");
 categoryAxisGroup.selectAll("text").attr("font-size", 24).attr("y", 9);
 categoryAxisGroup.call(categoryAxis);
-
+categoryAxisGroup.attr('opacity',0)
 //////////////////////////////////////////////////////
 
   let graphgroup = viz1.append("g").attr("class", "graphgroup");
@@ -146,6 +158,27 @@ incomingData = incomingData.map(function(node, index) {
       });
 
       initSongGraph();
+      enterView({
+        selector: '.viz1',
+        enter: function(el) {
+          console.log('a special element entered');
+          // points.transition().duration(500).attr('opacity',1);
+          songAxisGroup.transition().duration(500).attr('opacity',1)
+          d3.selectAll(".point").transition().duration(500).attr('opacity',1);
+          // document.getElementById('intropara1').style.opacity=1;
+        },
+        exit: function(el) {
+          console.log('a special element exited');
+          songAxisGroup.transition().duration(500).attr('opacity',0)
+          d3.selectAll(".point").transition().duration(500).attr('opacity',0);
+          // document.getElementById('intropara1').style.opacity=0;
+        },
+        progress: function(el, progress) {
+          console.log("the special element's progress is:", progress);
+        },
+        offset: 0.5 // enter at middle of viewport
+        // once: true, // trigger just once
+      });
 
 
       calcDeathPos()
@@ -183,9 +216,12 @@ incomingData = incomingData.map(function(node, index) {
           enterView({
             selector: '#intropara2',
             enter: function(el) {
-              console.log('a special element ente#bf0000');
+              console.log('a special element entered');
                showDeathGraph();
-                deathAxisGroup.call(deathAxis);
+                deathAxisGroup.transition().duration(500).attr('opacity',1);
+                songAxisGroup.transition().duration(500).attr('opacity',0)
+                // document.getElementById('intropara2').style.opacity=1;
+                // document.getElementById('intropara1').style.opacity=0;
 
             },
             exit: function(el) {
@@ -193,7 +229,11 @@ incomingData = incomingData.map(function(node, index) {
               // let viz1=document.getElementById('viz1placeholder');
               // viz1.src = "viz1_1.jpg"
                showSongGraph();
-               songAxisGroup.call(songAxis);
+               songAxisGroup.transition().duration(500).attr('opacity',1);
+               deathAxisGroup.transition().duration(500).attr('opacity',0)
+
+               // document.getElementById('intropara2').style.opacity =0;
+               // document.getElementById('intropara1').style.opacity=1;
             },
             progress: function(el, progress) {
               console.log("the special element's progress is:", progress);
@@ -233,9 +273,13 @@ incomingData = incomingData.map(function(node, index) {
           enterView({
             selector: '#intropara3',
             enter: function(el) {
-              console.log('a special element ente#bf0000');
+              console.log('a special element entered');
                showCategoryGraph();
-                categoryAxisGroup.call(categoryAxis);
+                categoryAxisGroup.transition().duration(500).attr('opacity',1);
+                deathAxisGroup.transition().duration(500).attr('opacity',0);
+
+                // document.getElementById('intropara2').style.opacity=0;
+                // document.getElementById('intropara3').style.opacity=1;
 
             },
             exit: function(el) {
@@ -243,7 +287,11 @@ incomingData = incomingData.map(function(node, index) {
               // let viz1=document.getElementById('viz1placeholder');
               // viz1.src = "viz1_1.jpg"
                showDeathGraph();
-               deathAxisGroup.call(deathAxis);
+               categoryAxisGroup.transition().duration(500).attr('opacity',0);
+               deathAxisGroup.transition().duration(500).attr('opacity',1);
+
+               // document.getElementById('intropara2').style.opacity=1;
+               // document.getElementById('intropara3').style.opacity=0;
             },
             progress: function(el, progress) {
               console.log("the special element's progress is:", progress);
@@ -302,7 +350,7 @@ incomingData = incomingData.map(function(node, index) {
             d.currenty = d.songy;
             return "translate("+d.songx+","+d.songy+")"
           })
-      enterSelection.append("circle")
+      let points = enterSelection.append("circle")
             .attr("class", "point")
             .attr("r", function(d,i){
               if (d.death == "fire") {
@@ -314,6 +362,7 @@ incomingData = incomingData.map(function(node, index) {
               }
             })
             .attr("fill", d=>d.color)
+            .attr('opacity',0)
             .on('mouseover',function(d,i){
               console.log('mouse over');
               console.log(d3.mouse(viz1.node()))
@@ -329,6 +378,9 @@ incomingData = incomingData.map(function(node, index) {
               textelement.text('')
             })
           ;
+
+      // points.transition().duration(500).attr('opacity',1);
+
     }
 
 

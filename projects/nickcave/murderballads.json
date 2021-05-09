@@ -58,7 +58,7 @@
     {
         "song": "Henry Lee",
         "category": "man",
-        "death": "knife",
+        "death": "stabbed",
         "name": "Henry Lee",
         "count": 1,
         "key": 8
@@ -66,7 +66,7 @@
     {
         "song": "Lovely Creature",
         "category": "youngwoman",
-        "death": "sand",
+        "death": "buried",
         "name": "\"lovely creature\"",
         "count": 1,
         "key": 9
@@ -74,7 +74,7 @@
     {
         "song": "Where the Wild Roses Grow",
         "category": "youngwoman",
-        "death": "rock",
+        "death": "slammed",
         "name": "Elisa Day",
         "count": 1,
         "key": 10

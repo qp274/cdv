@@ -1,11 +1,12 @@
 ypadding = 50;
 xpadding = 250;
 
-
+w3 = 900;
+h3 = 600;
 console.log('viz3script loaded');
 let viz3 = d3.select('.viz3').append("svg")
-    .attr('width', w)
-    .attr('height', h)
+    .attr('width', w3)
+    .attr('height', h3)
     // .attr('x',0)
     // .attr('y',0)
     .attr('id','svg3')
@@ -18,14 +19,13 @@ let viz3 = d3.select('.viz3').append("svg")
 function gotData(incomingData) {
   console.log('allscore',incomingData);
 
-
 ////////////////////////////////////y axis/////////////////////////////////
   let allNames = incomingData.map(function(d){return d.album});
   console.log(allNames);
 
   let yScale = d3.scaleBand()
       .domain(allNames)
-      .range([ypadding, h-ypadding])
+      .range([ypadding, h3-ypadding])
       // .paddingInner(0.1)
   ;
   let yAxis = d3.axisLeft(yScale);
@@ -46,18 +46,18 @@ function gotData(incomingData) {
   let scoreMin = d3.min(incomingData, function(d){
     return d.score;
   })
-  let xDomain = [scoreMax, scoreMin];
-  let xScale = d3.scaleLinear().domain(xDomain).range([w-xpadding, xpadding]);
+  let xDomain = [scoreMin, scoreMax];
+  let xScale = d3.scaleLinear().domain(xDomain).range([xpadding, w3-xpadding]);
   let xAxis = d3.axisBottom(xScale);
   let xAxisGroup = viz3.append("g")
       .attr("class", "xaxisgroup")
-      .attr("transform", "translate(0,"+(h-ypadding)+")")
+      .attr("transform", "translate(0,"+(h3-ypadding)+")")
   ;
   xAxisGroup.call(xAxis);
 
 
 //////////////////////////colorscale///////////////////////////////
-  let colorScale = d3.scaleLinear().domain(xDomain).range(["blue","red"]);
+  let colorScale = d3.scaleLinear().domain(xDomain).range(["red","blue"]);
 
 
 
@@ -80,22 +80,22 @@ function zeroline(){
   viz3.append("g")
       .attr("class", "grid")
       // .attr("transform", "translate("+(xpadding/2+200)+",-160)")
-      .attr("transform", "translate(0,"+(h-ypadding)+")")
+      .attr("transform", "translate(0,"+(h3-ypadding)+")")
 
 
       .call(make_x_gridlines()
-          .tickSize(-(h-2*ypadding))
+          .tickSize(-(h3-2*ypadding))
           .tickFormat("")
       )
   ;
   viz3.append("g")
       .attr("class", "zerogrid")
       // .attr("transform", "translate("+(xpadding/2+200)+",-160)")
-      .attr("transform", "translate(0,"+(h-ypadding)+")")
+      .attr("transform", "translate(0,"+(h3-ypadding)+")")
 
       .style('stroke','black')
       .call(zeroline()
-          .tickSize(-(h-2*ypadding))
+          .tickSize(-(h3-2*ypadding))
           .tickFormat("")
       )
   ;
@@ -104,7 +104,7 @@ function zeroline(){
       .attr("class", "grid")
       .attr("transform", "translate("+(xpadding)+","+0+")")
       .call(make_y_gridlines()
-          .tickSize(-(w-2*xpadding))
+          .tickSize(-(w3-2*xpadding))
           .tickFormat("")
       )
   ;
@@ -112,7 +112,7 @@ function zeroline(){
 
   /////////////////////////////////drawing line/////////////////////////////////
   let graphGroup = viz3.append('g').attr("class", "graphGroup");
-  let lineMaker = d3.line().curve(d3.curveNatural)
+  let lineMaker = d3.line().curve(d3.curveCatmullRom)
       .x(function(d){
         return xScale(d.score)
 
@@ -122,16 +122,13 @@ function zeroline(){
         return yScale(d.album) + (yScale.bandwidth()/2)
       })
   ;
-  pathstring = lineMaker(incomingData);
-  graphGroup.selectAll('.curveline').data(incomingData).enter()
+  graphGroup.selectAll('.curveline').data([incomingData]).enter()
       .append('path')
-        .attr('d',pathstring)
+        .attr('d',lineMaker)
         .attr('fill', "none")
         .attr('stroke', 'black')
         .attr('stroke-width', 0.5)
         .attr("class", "curveline")
-
-
   ;
   graphGroup.selectAll('.point').data(incomingData).enter()
       .append('circle')
