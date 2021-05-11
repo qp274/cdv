@@ -145,7 +145,7 @@ eachalbumgroup.attr("transform", function(d,i){
   return  "translate("+x+","+y+")"
 });
 
-
+/////////////////////////////////////////////////////////////////////////
 let graphGroup = entiregraphgroup.append('g').attr("class", "wcgraphGroup");
 let redlineMaker = d3.line().curve(d3.curveCatmullRom)
     .x(function(d,i){
@@ -270,6 +270,7 @@ let secondlineMaker = d3.line().curve(d3.curveCatmullRom)
 // 	offset: 0.5 // enter at middle of viewport
 // 	// once: true, // trigger just once
 // });
+
 
 });
 
@@ -400,3 +401,8 @@ d3.json("allwordcount.json").then(function(incomingData){
   	offset: 0.5
   });
 });
+
+
+// let shuffle = document.getElementById('shuffle');
+// shuffle.addEventListener('click',updatedata);
+// shuffle.addEventListener('click',function(){console.log('click')});

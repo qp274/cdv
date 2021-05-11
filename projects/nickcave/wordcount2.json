@@ -1,0 +1,360 @@
+[
+  {
+   "album": "From Her to Eternity",
+   "wordcount": [
+       {
+           "count": 1,
+           "word": "oh"
+       },
+       {
+           "count": 0,
+           "word": "yeah"
+       },
+       {
+           "count": 32,
+           "word": "la"
+       },
+       {
+           "count": 9,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "The Firstborn Is Dead",
+   "wordcount": [
+       {
+           "count": 7,
+           "word": "oh"
+       },
+       {
+           "count": 6,
+           "word": "yeah"
+       },
+       {
+           "count": 46,
+           "word": "la"
+       },
+       {
+           "count": 29,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "Kicking Against the Pricks",
+   "wordcount": [
+       {
+           "count": 13,
+           "word": "oh"
+       },
+       {
+           "count": 9,
+           "word": "yeah"
+       },
+       {
+           "count": 67,
+           "word": "la"
+       },
+       {
+           "count": 29,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "Your Funeral My Trial",
+   "wordcount": [
+       {
+           "count": 2,
+           "word": "oh"
+       },
+       {
+           "count": 6,
+           "word": "yeah"
+       },
+       {
+           "count": 29,
+           "word": "la"
+       },
+       {
+           "count": 10,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "Tender Prey",
+   "wordcount": [
+       {
+           "count": 10,
+           "word": "oh"
+       },
+       {
+           "count": 1,
+           "word": "yeah"
+       },
+       {
+           "count": 40,
+           "word": "la"
+       },
+       {
+           "count": 46,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "The Good Son",
+   "wordcount": [
+       {
+           "count": 0,
+           "word": "oh"
+       },
+       {
+           "count": 12,
+           "word": "yeah"
+       },
+       {
+           "count": 7,
+           "word": "la"
+       },
+       {
+           "count": 33,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "Henry's Dream",
+   "wordcount": [
+       {
+           "count": 20,
+           "word": "oh"
+       },
+       {
+           "count": 23,
+           "word": "yeah"
+       },
+       {
+           "count": 22,
+           "word": "la"
+       },
+       {
+           "count": 8,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "Let Love In",
+   "wordcount": [
+       {
+           "count": 2,
+           "word": "oh"
+       },
+       {
+           "count": 10,
+           "word": "yeah"
+       },
+       {
+           "count": 54,
+           "word": "la"
+       },
+       {
+           "count": 41,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "Murder Ballads",
+   "wordcount": [
+       {
+           "count": 3,
+           "word": "oh"
+       },
+       {
+           "count": 24,
+           "word": "yeah"
+       },
+       {
+           "count": 212,
+           "word": "la"
+       },
+       {
+           "count": 26,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "The Boatman's Call",
+   "wordcount": [
+       {
+           "count": 3,
+           "word": "oh"
+       },
+       {
+           "count": 0,
+           "word": "yeah"
+       },
+       {
+           "count": 32,
+           "word": "la"
+       },
+       {
+           "count": 8,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "No More Shall We Part",
+   "wordcount": [
+       {
+           "count": 5,
+           "word": "oh"
+       },
+       {
+           "count": 2,
+           "word": "yeah"
+       },
+       {
+           "count": 40,
+           "word": "la"
+       },
+       {
+           "count": 151,
+           "word": "na"
+       }
+   ]
+  },
+  {
+   "album": "Nocturama",
+   "wordcount": [
+       {
+           "count": 7,
+           "word": "oh"
+       },
+       {
+           "count": 5,
+           "word": "yeah"
+       },
+       {
+           "count": 20,
+           "word": "la"
+       },
+       {
+           "count": 11,
+           "word": "na"
+       }
+   ]
+  },
+  {
+      "album": "Abattoir Blues/The Lyre of Orpheus",
+      "wordcount": [
+          {
+              "count": 3,
+              "word": "oh"
+          },
+          {
+              "count": 1,
+              "word": "yeah"
+          },
+          {
+              "count": 52,
+              "word": "la"
+          },
+          {
+              "count": 31,
+              "word": "na"
+          }
+      ]
+  },
+  {
+      "album": "Dig, Lazarus, Dig!!!",
+      "wordcount": [
+          {
+              "count": 2,
+              "word": "oh"
+          },
+          {
+              "count": 5,
+              "word": "yeah"
+          },
+          {
+              "count": 74,
+              "word": "la"
+          },
+          {
+              "count": 37,
+              "word": "na"
+          }
+      ]
+  },
+  {
+      "album": "Push the Sky Away",
+      "wordcount": [
+          {
+              "count": 5,
+              "word": "oh"
+          },
+          {
+              "count": 7,
+              "word": "yeah"
+          },
+          {
+              "count": 28,
+              "word": "la"
+          },
+          {
+              "count": 11,
+              "word": "na"
+          }
+      ]
+  },
+  {
+      "album": "Skeleton Tree",
+      "wordcount": [
+          {
+              "count": 1,
+              "word": "oh"
+          },
+          {
+              "count": 0,
+              "word": "yeah"
+          },
+          {
+              "count": 26,
+              "word": "la"
+          },
+          {
+              "count": 5,
+              "word": "na"
+          }
+      ]
+  },
+  {
+      "album": "Ghosteen",
+      "wordcount": [
+          {
+              "count": 59,
+              "word": "oh"
+          },
+          {
+              "count": 4,
+              "word": "yeah"
+          },
+          {
+              "count": 18,
+              "word": "la"
+          },
+          {
+              "count": 3,
+              "word": "na"
+          }
+      ]
+  }
+
+]

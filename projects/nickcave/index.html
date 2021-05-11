@@ -41,7 +41,7 @@
             The stories told by <span class="namehighlight">the bad seeds</span>’ lyrics, tainted naturally with the typical characteristics of those genres, attain a unique balance through juxtapositions of the sacred and the profane, the death and rebirth, the killing and the romance, the painfully genuine mercy and the merciless universal sufferings. The classic Nick Cave lexicon contains the trademark combinations of “fuck”, “murder”, “jesus” and “love”.
           </p>
           <p id="bandintro3">
-            As is described by Nick Cave himself, his lyricism centers around contradictory, opposing and conflicting elements, yet each of the bad seeds’ albums is also incredibly cohesive, thus giving me the curiosity to illustrate the progression of lyricism in the bad seeds’ timeline. The project aims to investigate the evolution of the band <span class="namehighlight">Nick Cave & the Bad Seeds</span>, starting from its early forms <span class="namehighlight">the Boys Next Door</span> and <span class="namehighlight">the Birthday Party</span>. I intend to visualize these juxtapositions and themes through categorical and numerical measures, based mainly on text analysis of the lyrics data I scraped.
+            As is described by Nick Cave himself, his lyricism centers around contradictory, opposing and conflicting elements, yet each of the bad seeds’ albums is also incredibly cohesive, thus giving me the curiosity to illustrate the progression of lyricism in the bad seeds’ timeline. The project aims to investigate the evolution of the band <span class="namehighlight">Nick Cave & the Bad Seeds</span>. I intend to visualize these juxtapositions and themes through categorical and numerical measures, based mainly on text analysis of the lyrics data I scraped.
           </p>
         </div>
 
@@ -128,7 +128,14 @@
 
         </div>
         <div id="des1">
-          <p>The lexicon of the bad seeds’ lyrics transgress the borders of life and death, good and evil, past and present. It is not surprising to find four of the most used words are very polarized in nature. Nick Cave does quite enjoy the folk-ish rambling of “babe”, even more then his obsession with murder and biblical references.</p>
+          <!-- <button type="button" name="button" id="shuffle">shuffle</button> -->
+          <p>The lexicon of the bad seeds’ lyrics transgress the borders of life and death, good and evil, past and present. It is not surprising to find the most used words are very polarized in nature. Nick Cave does quite enjoy the folk-ish rambling of “babe”, even more then his obsession with murder and biblical references.</p>
+          <p>
+            Using the python package <a href="https://github.com/johnwmillr/LyricsGenius/blob/master/docs/src/setup.rst">LyricsGenius</a> by John W. Miller, I scraped all of the bad seeds' lyrics from <a href="gnius.com">Genius</a> and did word frequency analysis.
+          </p>
+          <p>
+            <span class="namehighlight">*hover to see the exact number of word count</span>
+          </p>
         </div>
       <!-- </div> -->
 
@@ -167,10 +174,13 @@
       <div class="description">
         <div id="des4">
           <p>
-            Using the python package Afinn created by Finn Nielsen, I computed a sentiment score for the lyrics of each of the bad seeds’ albums, in an effort to map out the progression of the lyrics’ intensities.
+            Using the python package <a href="https://github.com/fnielsen/afinn">Afinn</a> created by Finn Nielsen, I computed a sentiment score for the lyrics of each of the bad seeds’ albums, in an effort to map out the progression of the lyrics’ intensities.
           </p>
           <p>
             After guitarist Blixa Bargeld left before the making of Nocturama, the creative center gravitated more towards Nick Cave and Warren Ellis. The bad seeds gradually progress into a more cathartic, yet still conflicting theme.
+          </p>
+          <p>
+            <span class="namehighlight">* the more positive the score is, the more positive the general emotion is within this album, and vice versa</span>
           </p>
         </div>
       </div>
@@ -197,7 +207,7 @@
           <a href="https://www.theredhandfiles.com/">the Red Hand Files</a>
         </p>
 
-        <div id="thanksline">Thanks for reading and Welcome to be a new fan!</div>
+        <div id="thanksline">Thanks for reading and/or  Welcome to be a new fan!</div>
 
       </div>
 
