@@ -1,6 +1,7 @@
 Quantifying Lyrics of Nick Cave & the Bad seeds
-
 [link to webpage](https://qp274.github.io/cdv/projects/nickcave/)
+<br/>
+
 ![GIF](nickcavewebpage.gif)
 <br/>
 If you don't know my favourite band now you know. Nick Cave & the Bad Seeds, what do they do in their lyrics except murder?
